@@ -1,0 +1,84 @@
+/*Content styles*/
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pic img{
+    height: 400px;
+    width: 480px;
+    margin-left: 180px;
+    filter: grayscale(100%);
+    padding-right: 173px;
+    border-right: 1px solid rgba(255, 255, 255, 0.281);
+}
+
+.borderBottom{
+    min-width: 90%;
+    margin-left: 5%;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.336);
+}
+
+
+/*Marquee styles*/
+
+.marquee {
+    min-width: 400px;
+    min-height: 12rem;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  
+  .marquee__inner-wrap {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .marquee span {
+    text-align: center;
+    font-weight: 400;
+    white-space: nowrap;
+    font-size: max(6vw, 6.4rem);
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 120px;
+    color:rgb(214, 104, 64);
+  }
+
+  .marquee__inner img{
+    height: 70px;
+    width: 65px;
+    margin-left: 180px;
+    margin-top: 7px;
+}
+  
+  .marquee__img {
+    max-width: 40px;
+    max-height: 40px;
+    position: relative;
+    right: 130px;
+    bottom: 20px;
+  }
+  
+  .marquee__inner {
+    height: 100%;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    position: relative;
+    animation: marquee 50s linear infinite;
+    will-change: transform;
+  }
+  
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (max-width: 750px) {
+    .container{
+        flex-direction: column;
+    }
+  }

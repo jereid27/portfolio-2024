@@ -1,0 +1,208 @@
+/*Content Styles*/
+.title{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.322)), url("src/assets/portfolio-background.jpg"); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.titleContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: .7%;
+    margin-top: 25px;
+    margin-right: 29px;
+}
+
+.titleName{
+    font-size: 7.3rem;
+    padding-right: 25px;
+}
+
+
+.lastName{
+    margin-top: -110px;
+}
+
+.titleText{
+    max-width: 600px;
+    min-width: 500px;
+    width: 500px;
+    max-height: 600px;
+    font-size: 25px;
+    border-left: .5px solid white;
+    padding: 70px;
+
+}
+
+.connectButton {
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.connectButton:hover{
+    box-shadow: 10px 10px rgb(230, 92, 42);
+    cursor: pointer;
+    background: linear-gradient(40deg, rgb(60, 11, 175) 20%, rgb(214, 104, 64) 100%);
+}
+
+/*Arrow Styles*/
+
+.arrows,
+.arrows:before{
+position: absolute;
+left: 50%;
+}
+
+.arrows{
+    width: 40px;
+    height: 40px;
+    top: 87%;
+    left: 90%;
+    margin: -20px 0 0 -20px;
+    transform: rotate(45deg);
+    border-left: none;
+    border-top: none;
+    border-right: 2px #fff solid;
+    border-bottom: 2px #fff solid;
+
+}
+
+.arrows:hover{
+    cursor: pointer;
+    border-left: none;
+    border-top: none;
+    border-right: 2px rgb(255, 124, 18) solid;
+    border-bottom: 2px rgb(255, 124, 18) solid;
+}
+
+.arrows:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    border-left: none;
+    border-top: none;
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: arrow;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 1;
+ }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -10px);
+  }
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+
+.anchor-link:hover{
+    color:rgb(255, 124, 18);
+    cursor: pointer;
+    display: inline-block;
+}
+
+/*Animation Styles*/
+
+.titleName {
+    animation: drop-in 1.5s ease 200ms backwards;
+}
+
+.titleText {
+    animation: slide-up 1400ms ease 500ms backwards;
+}
+
+@keyframes drop-in{
+    0% {
+        opacity: 0;
+        transform: translateY(-70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slide-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+@media (max-width: 980px) {
+    .titleName{
+        font-size: 6rem;
+    }
+
+    .titleText{
+        max-width: 600px;
+        width: 400px;
+        min-width: 200px;
+        width: none;
+        max-height: 600px;
+        font-size: 20px;
+        border-left: .5px solid white;
+        padding: 70px;
+    
+    }
+}
+
+@media (max-width: 750px) {
+
+    .title{
+        min-width: 400px;
+    }
+    .titleContent{
+        display:flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .titleText{
+        min-width: 100px;
+        border-left: none;
+        padding: none;
+    }
+
+    .titleName{
+        font-size: 4.5rem;
+        margin-left: 20px;
+        padding-right: none;
+    }
+
+    .lastName{
+        margin-top: -80px;
+    }
+}
+
+
+
