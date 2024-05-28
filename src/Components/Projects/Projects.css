@@ -18,6 +18,26 @@
   -webkit-text-fill-color: transparent;
 }
 
+.links a{
+    text-decoration: none;
+    color: rgb(230, 92, 42);
+    transition: 0.3s;
+}
+
+.links a:hover{
+    color: rgb(25, 101, 151);
+}
+
+.links a p{
+    font-size: 25px;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+
 .projectHeader h3 {
     font-size: 1.3rem;
 }
@@ -49,6 +69,12 @@
 .projImg {
     max-height: 300px;
     max-width: 500px;
+}
+
+@media (max-width: 300px){
+    .projectHeader{
+        margin-left: 80px;
+    }
 }
 
 @media (max-width: 750px) {

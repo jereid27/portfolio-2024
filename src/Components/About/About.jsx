@@ -56,7 +56,7 @@ const About = () => {
             </div>
         </div>
 
-        <div className="container">
+        <div className="container" data-aos='fade-left'>
             <div className="profilePic-div">
             <img className='profile-pic' src='src/assets/profile-pic.jpg' alt='profile picture'/>
             </div>

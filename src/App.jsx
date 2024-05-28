@@ -6,7 +6,7 @@ import Projects from './Components/Projects/Projects'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 const App = () => {
-  AOS.init();
+  AOS.init()
   return (
     <div>
       <Navbar/>
