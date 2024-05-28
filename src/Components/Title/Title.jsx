@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Title = () => {
   return (
-    <div className='title'>
+    <div className='title' id='title'>
 
         <div className="titleContent">
 

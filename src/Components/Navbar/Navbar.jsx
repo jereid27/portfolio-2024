@@ -1,16 +1,35 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 const Navbar = () => {
+
+    const [sticky, setSticky] = useState(false);
+    const [scrolled, setScrolled] = useState(false)
+
+    useEffect(()=>{
+        window.addEventListener('scroll', ()=>{
+            window.scrollY > 50 ? setSticky(true) : setSticky(false);
+
+            window.scrollY > 0 ? setScrolled(true) : setScrolled(false);
+        })
+    },[]);
+
+    const [mobileMenu, setMobileMenu] = useState(false);
+    const toggleMenu = ()=>{
+        mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
+    }
+
   return (
     <div>
-        <div className="navbar">
+        <div className={`navbar ${sticky? 'dark-nav' : ''} ${mobileMenu?'':'hide-mobile-menu'}`}>
             <div className="firstNav">
                 <ul>
-                    <li>ABOUT</li>
+                <li><AnchorLink className='anchor-link' offset={50} href='#about'>ABOUT</AnchorLink></li>
                     <li>RESUME</li>
                 </ul>
             </div>
-            <img src="src/assets/star-img.webp" alt="star" className="star" />
+            <AnchorLink className='anchor-link' offset={50} href='#title'><img src="src/assets/star-img.webp" alt="star" className="star" onClick={toggleMenu} /></AnchorLink>
             <div className="secondNav">
                 <ul>
                     <li>PROJECTS</li>

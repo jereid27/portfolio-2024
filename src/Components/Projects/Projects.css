@@ -1,0 +1,72 @@
+.projects{
+    color: white;
+}
+
+.projectHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectHeader h1{
+    font-size: 6rem;
+    font-weight: 700;
+    background: linear-gradient(220deg, rgb(214, 104, 64) 36%, rgb(60, 11, 175) 100%);
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projectHeader h3 {
+    font-size: 1.3rem;
+}
+
+.proj-grid p {
+    font-size: 1.2rem;
+}
+
+.proj1-header{
+    font-size: 2.6rem;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.493);
+}
+
+.proj-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap:6rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+.grid-item {
+    min-height: 400px;
+    max-width: 400px;
+}
+
+.projImg {
+    max-height: 300px;
+    max-width: 500px;
+}
+
+@media (max-width: 750px) {
+    .proj-grid{
+        display: flex;
+        flex-direction: column;
+        gap:6rem;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .projectHeader{
+        margin-left: 40px;
+    }
+
+    .projImg {
+        max-height: 300px;
+        max-width: 100%;
+    }
+
+}

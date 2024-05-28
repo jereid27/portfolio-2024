@@ -57,8 +57,9 @@ const About = () => {
         </div>
 
         <div className="container">
-            <img src='src/assets/profile-pic.jpg' alt='profile picture'/>
-            <div className='orangeBox'></div>
+            <div className="profilePic-div">
+            <img className='profile-pic' src='src/assets/profile-pic.jpg' alt='profile picture'/>
+            </div>
             <div className="bio">
                 Hi, I'm Jude! I am a highly motivated,<br /> <span>full stack software engineer</span> with a strong interest in 
                 web developement. I combine my unique experience in traditional and digital art with my education in software engineering
@@ -68,6 +69,8 @@ const About = () => {
             </div>
         
         </div>
+
+        <div className='orangeBox'></div>
 
         <div className='borderBottom'></div>
     </div>
