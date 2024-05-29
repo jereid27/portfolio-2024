@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About'
 import Projects from './Components/Projects/Projects'
 import Languages from './Components/Languages/Languages'
+import Contact from './Components/Contact/Contact'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <About/>
       <Projects/>
       <Languages/>
+      <Contact/>
     </div>
   )
 }
