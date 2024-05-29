@@ -37,3 +37,36 @@
     width: 100px;
     margin-top: 100px;
 }
+
+@media (max-width: 750px){
+    .languagesHeader h1{
+        font-size: 3.2rem;
+    }
+
+    .languagesHeader {
+        margin-left: 24%;
+    }
+
+    .languagesHeader h3 {
+        margin-right: 13%;
+    }
+
+    .languagesGrid{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 0;
+    }
+
+    .lang-grid-itm .javascript{
+        width: 130px;
+    }
+
+    .lang-grid-itm .react{
+        margin-left: 0;
+    }
+
+    .lang-grid-itm img{
+        width: 70px;
+        margin-top: 100px;
+    }
+}

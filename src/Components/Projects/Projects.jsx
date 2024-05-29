@@ -4,7 +4,7 @@ import './Projects.css'
 const Projects = () => {
 
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
         <div className="projectHeader">
             <h1>PROJECTS</h1>
             <h3>FRONTEND | BACKEND | FULLSTACK</h3>

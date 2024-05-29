@@ -32,8 +32,8 @@ const Navbar = () => {
             <AnchorLink className='anchor-link' offset={50} href='#title'><img src="src/assets/star-img.webp" alt="star" className="star" onClick={toggleMenu} /></AnchorLink>
             <div className="secondNav">
                 <ul>
-                    <li>PROJECTS</li>
-                    <li>CONTACT</li>
+                <AnchorLink className='anchor-link' offset={50} href='#projects'><li>PROJECTS</li></AnchorLink>
+                <AnchorLink className='anchor-link' offset={50} href='#contact'><li>CONTACT</li></AnchorLink>
                 </ul>
             </div>
         </div>
