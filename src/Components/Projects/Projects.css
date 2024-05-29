@@ -1,5 +1,13 @@
 .projects{
     color: white;
+    margin-bottom: 30px;
+}
+
+.borderBottom{
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.336);
 }
 
 .projectHeader{

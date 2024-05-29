@@ -1,0 +1,39 @@
+.languagesHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.languagesHeader h1{
+    font-size: 6rem;
+    font-weight: 700;
+    background: linear-gradient(220deg, rgb(214, 104, 64) 36%, rgb(60, 11, 175) 100%);
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.languagesHeader h3 {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.languagesGrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+}
+
+.lang-grid-itm .javascript{
+    width: 240px;
+}
+
+.lang-grid-itm .react{
+    margin-left: 70px;
+}
+
+.lang-grid-itm img{
+    width: 100px;
+    margin-top: 100px;
+}

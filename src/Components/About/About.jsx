@@ -56,11 +56,11 @@ const About = () => {
             </div>
         </div>
 
-        <div className="container" data-aos='fade-left'>
-            <div className="profilePic-div">
+        <div className="container">
+            <div className="profilePic-div" data-aos='fade-up' data-aos-easing='ease-in'>
             <img className='profile-pic' src='src/assets/profile-pic.jpg' alt='profile picture'/>
             </div>
-            <div className="bio">
+            <div className="bio" data-aos='fade-right' data-aos-easing='ease-in'>
                 Hi, I'm Jude! I am a highly motivated,<br /> <span>full stack software engineer</span> with a strong interest in 
                 web developement. I combine my unique experience in traditional and digital art with my education in software engineering
                 to build swift, responsive, and creative applications. I am committed to learning everyday to enhance my
