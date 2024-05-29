@@ -46,7 +46,7 @@ const Contact = () => {
                     <img className='contact-icon' src='/src/assets/phone.png' alt='phone'/><p>(601)-938-2644</p>
                     </div>
                     <div className="contact-detail">
-                    <img className='contact-icon' src='/src/assets/linkedin.png' alt='linkedin'/><a className='linkedin-link'href='https://www.linkedin.com/in/jude-reid-300596252/'><p>Jude Reid | LinkedIn</p></a>
+                    <img className='contact-icon' src='/src/assets/linkedin.png' alt='linkedin'/><a className='linkedin-link' href='https://www.linkedin.com/in/jude-reid-300596252/' target='_blank'><p>Jude Reid | LinkedIn</p></a>
                     </div>
 
                 </div>
