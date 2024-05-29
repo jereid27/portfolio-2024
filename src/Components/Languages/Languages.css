@@ -38,9 +38,15 @@
     margin-top: 100px;
 }
 
+@media (max-width: 950px){
+    .languagesHeader h1{
+        font-size: 4.5rem;
+    }
+}
+
 @media (max-width: 750px){
     .languagesHeader h1{
-        font-size: 3.2rem;
+        font-size: 4.5rem;
     }
 
     .languagesHeader {
@@ -48,13 +54,15 @@
     }
 
     .languagesHeader h3 {
-        margin-right: 13%;
+        margin-right: 25%;
     }
 
     .languagesGrid{
         display: grid;
         grid-template-columns: auto auto;
         margin-left: 0;
+        margin-right: 50px;
+        justify-content: center;
     }
 
     .lang-grid-itm .javascript{
@@ -62,11 +70,12 @@
     }
 
     .lang-grid-itm .react{
-        margin-left: 0;
+        margin-left: 100px;
     }
 
     .lang-grid-itm img{
         width: 70px;
         margin-top: 100px;
+        margin-left: 100px;
     }
 }

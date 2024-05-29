@@ -1,0 +1,15 @@
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.resume h1 {
+    font-size: 2rem;
+}
+
+.resume a{
+    font-size: 1.5rem;
+}

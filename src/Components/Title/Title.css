@@ -179,7 +179,7 @@ left: 50%;
 @media (max-width: 750px) {
 
     .title{
-        min-width: 420px;
+        min-width: 450px;
     }
     .titleContent{
         display:flex;
@@ -194,10 +194,8 @@ left: 50%;
     }
 
     .titleName{
-        font-size: 5.5rem;
-        margin-top: 20px;
+        font-size: 4.5rem;
         margin-left: 20px;
-        margin-bottom: -70px;
         padding-right: none;
     }
 

@@ -19,7 +19,7 @@ const Title = () => {
                     <h2>A design driven full stack software engineer devoted
                             to building accessible and efficient programs.
                     </h2>
-                    <h3 className='connectButton'>Connect With Me!</h3>
+                    <AnchorLink className='anchor-link' offset={50} href='#contact'><h3 className='connectButton'>Connect With Me!</h3></AnchorLink>
                 </div>
 
         </div>
