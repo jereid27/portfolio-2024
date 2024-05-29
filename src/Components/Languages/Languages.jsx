@@ -11,14 +11,14 @@ const Languages = () => {
         </div>
 
         <div className="languagesGrid" data-aos='fade-up' data-aos-easing='ease-in'>
-            <div className="lang-grid-itm"><img className='java' src='/src/assets/java-logo.png' alt='java logo'/></div>
-            <div className="lang-grid-itm"><img className='javascript' src='/src/assets/javascript-logo.png' alt='js logo'/></div>
-            <div className="lang-grid-itm"><img className='python' src='/src/assets/python-logo.png' alt='python logo'/></div>
-            <div className="lang-grid-itm"><img className='html' src='/src/assets/html-logo.png' alt='html logo'/></div>
-            <div className="lang-grid-itm"><img className='springboot' src='/src/assets/spring-boot-logo.png' alt='springboot logo'/></div>
-            <div className="lang-grid-itm"><img className='react' src='/src/assets/react-logo.png' alt='react logo'/></div>
-            <div className="lang-grid-itm"><img className='angular' src='/src/assets/angular-logo.png' alt='angular logo'/></div>
-            <div className="lang-grid-itm"><img className='css' src='/src/assets/css-logo.png' alt='css logo'/></div>
+            <div className="lang-grid-itm"><img className='java' src='public/java-logo.png' alt='java logo'/></div>
+            <div className="lang-grid-itm"><img className='javascript' src='public/javascript-logo.png' alt='js logo'/></div>
+            <div className="lang-grid-itm"><img className='python' src='public/python-logo.png' alt='python logo'/></div>
+            <div className="lang-grid-itm"><img className='html' src='public/html-logo.png' alt='html logo'/></div>
+            <div className="lang-grid-itm"><img className='springboot' src='public/spring-boot-logo.png' alt='springboot logo'/></div>
+            <div className="lang-grid-itm"><img className='react' src='public/react-logo.png' alt='react logo'/></div>
+            <div className="lang-grid-itm"><img className='angular' src='public/angular-logo.png' alt='angular logo'/></div>
+            <div className="lang-grid-itm"><img className='css' src='public/css-logo.png' alt='css logo'/></div>
         </div>
 
         <div className='borderBottom'></div>

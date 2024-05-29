@@ -9,7 +9,7 @@ const Resume = () => {
             <p>
                  Take a copy of my resume before you go!</p>
         <a href="/src/assets/jude-resume24.pdf" download>Download
-        <img className='downloadImg' src="/src/assets/download.png" alt="download" /></a>
+        <img className='downloadImg' src="public/download.png" alt="download" /></a>
         </div>
     </div>
   )

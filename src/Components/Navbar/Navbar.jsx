@@ -29,7 +29,7 @@ const Navbar = () => {
                     <li><AnchorLink className='anchor-link' offset={50} href='#resume'>RESUME</AnchorLink></li>
                 </ul>
             </div>
-            <AnchorLink className='anchor-link' offset={50} href='#title'><img src="src/assets/star-img.webp" alt="star" className="star" onClick={toggleMenu} /></AnchorLink>
+            <AnchorLink className='anchor-link' offset={50} href='#title'><img src="public/star-img.webp" alt="star" className="star" onClick={toggleMenu} /></AnchorLink>
             <div className="secondNav">
                 <ul>
                 <AnchorLink className='anchor-link' offset={50} href='#projects'><li>PROJECTS</li></AnchorLink>
