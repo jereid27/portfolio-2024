@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className="firstNav">
                 <ul>
                 <li><AnchorLink className='anchor-link' offset={50} href='#about'>ABOUT</AnchorLink></li>
-                    <li>RESUME</li>
+                    <li><AnchorLink className='anchor-link' offset={50} href='#resume'>RESUME</AnchorLink></li>
                 </ul>
             </div>
             <AnchorLink className='anchor-link' offset={50} href='#title'><img src="src/assets/star-img.webp" alt="star" className="star" onClick={toggleMenu} /></AnchorLink>

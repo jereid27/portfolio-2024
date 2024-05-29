@@ -33,7 +33,7 @@ const Contact = () => {
             <h1>CONTACT</h1>
         </div>
 
-        <div className="contact-section">
+        <div className="contact-section" data-aos='fade-up' data-aos-easing='ease-in-out'>
             <div className='contact-left'>
 
             <h3>Let's connect!</h3>

@@ -1,15 +1,46 @@
-.resume{
+
+.resume-bar{
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-top: 40px;
+    gap: .5rem;
 }
 
-.resume h1 {
-    font-size: 2rem;
+.resume p{
+    font-size: 1.5rem;
+    color: white;
 }
 
 .resume a{
     font-size: 1.5rem;
+    padding: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: 0.3s;
+
+}
+
+.resume a:hover{
+    box-shadow: 10px 10px rgb(230, 92, 42);
+    cursor: pointer;
+    background: linear-gradient(40deg, rgb(60, 11, 175) 20%, rgb(214, 104, 64) 100%);
+}
+
+.downloadImg{
+    filter: invert();
+    height: 30px;
+}
+
+
+.borderTop {
+    max-width: 90%;
+    margin-left: 5%;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.336);
 }

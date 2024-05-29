@@ -114,6 +114,10 @@ left: 50%;
   }
 }
 
+.anchor-link .connectButton{
+    color: white;
+}
+
 .anchor-link{
     text-decoration: none;
     color: white;

@@ -3,10 +3,14 @@ import './Resume.css'
 
 const Resume = () => {
   return (
-    <div className='resume'>
-        <h1>Go ahead and take a resume while you are here!</h1>
-        <a href="/src/assets/jude-resume24.pdf" download>Download Resume</a>
-        <div className="borderBottom"></div>
+    <div className='resume' id='resume'>
+        <div className="borderTop"></div>
+        <div className="resume-bar" data-aos='fade' data-aos-easing='ease-in'>
+            <p>
+                 Take a copy of my resume before you go!</p>
+        <a href="/src/assets/jude-resume24.pdf" download>Download
+        <img className='downloadImg' src="/src/assets/download.png" alt="download" /></a>
+        </div>
     </div>
   )
 }
