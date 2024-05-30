@@ -40,13 +40,13 @@ const Contact = () => {
 
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img className='contact-icon' src='public/mail.png' alt='email'/><p>jelijreid27@gmail.com</p>
+                        <img className='contact-icon' src='/mail.png' alt='email'/><p>jelijreid27@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                    <img className='contact-icon' src='public/phone.png' alt='phone'/><p>(601)-938-2644</p>
+                    <img className='contact-icon' src='/phone.png' alt='phone'/><p>(601)-938-2644</p>
                     </div>
                     <div className="contact-detail">
-                    <img className='contact-icon' src='public/linkedin.png' alt='linkedin'/><a className='linkedin-link' href='https://www.linkedin.com/in/jude-reid-300596252/' target='_blank'><p>Jude Reid | LinkedIn</p></a>
+                    <img className='contact-icon' src='/linkedin.png' alt='linkedin'/><a className='linkedin-link' href='https://www.linkedin.com/in/jude-reid-300596252/' target='_blank'><p>Jude Reid | LinkedIn</p></a>
                     </div>
 
                 </div>

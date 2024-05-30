@@ -12,7 +12,7 @@ const Projects = () => {
 
         <div className="proj-grid">
             {/*First Project*/}
-            <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><img className='projImg'src='public/workwiz-home.png'/></div>
+            <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><img className='projImg'src='/workwiz-home.png'/></div>
             <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><h1 className='proj1-header'>Work Wizard - Employee Dashboard</h1>
                 <p>Work Wizard - Employee Dashboard is a fullstack application built using Java, Spring Boot, Spring Boot Security,
                     HTML, CSS, and PostgreSQL designed to help independent contractors such as cosmetologists and tattoo artists 
@@ -34,10 +34,10 @@ const Projects = () => {
                     <a className='link2' href='https://github.com/jereid27/Supply-Store-Springboot' target='_blank'><p>View Code</p></a>
                 </div>
             </div>
-            <div className="gridItem" data-aos='fade-left' data-aos-easing='ease-in'><img className='projImg' src='public/tattooSupply.png'/></div>
+            <div className="gridItem" data-aos='fade-left' data-aos-easing='ease-in'><img className='projImg' src='/tattooSupply.png'/></div>
 
             {/*Third Project*/}
-            <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><img className='projImg' src='public/world-map.png'/></div>
+            <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><img className='projImg' src='/world-map.png'/></div>
             <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><h1 className='proj1-header'>World Map</h1>
                 <p>This world map, created using AngularJS, allows users to view API sourced facts about individual countries. This is made possible
                      by leveraging mouse events that display information on screen derived from an API when a user selects a desired country.</p>

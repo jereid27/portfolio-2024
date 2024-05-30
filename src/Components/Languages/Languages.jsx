@@ -11,14 +11,14 @@ const Languages = () => {
         </div>
 
         <div className="languagesGrid" data-aos='fade-up' data-aos-easing='ease-in'>
-            <div className="lang-grid-itm"><img className='java' src='public/java-logo.png' alt='java logo'/></div>
-            <div className="lang-grid-itm"><img className='javascript' src='public/javascript-logo.png' alt='js logo'/></div>
-            <div className="lang-grid-itm"><img className='python' src='public/python-logo.png' alt='python logo'/></div>
-            <div className="lang-grid-itm"><img className='html' src='public/html-logo.png' alt='html logo'/></div>
-            <div className="lang-grid-itm"><img className='springboot' src='public/spring-boot-logo.png' alt='springboot logo'/></div>
-            <div className="lang-grid-itm"><img className='react' src='public/react-logo.png' alt='react logo'/></div>
-            <div className="lang-grid-itm"><img className='angular' src='public/angular-logo.png' alt='angular logo'/></div>
-            <div className="lang-grid-itm"><img className='css' src='public/css-logo.png' alt='css logo'/></div>
+            <div className="lang-grid-itm"><img className='java' src='/java-logo.png' alt='java logo'/></div>
+            <div className="lang-grid-itm"><img className='javascript' src='/javascript-logo.png' alt='js logo'/></div>
+            <div className="lang-grid-itm"><img className='python' src='/python-logo.png' alt='python logo'/></div>
+            <div className="lang-grid-itm"><img className='html' src='/html-logo.png' alt='html logo'/></div>
+            <div className="lang-grid-itm"><img className='springboot' src='/spring-boot-logo.png' alt='springboot logo'/></div>
+            <div className="lang-grid-itm"><img className='react' src='/react-logo.png' alt='react logo'/></div>
+            <div className="lang-grid-itm"><img className='angular' src='/angular-logo.png' alt='angular logo'/></div>
+            <div className="lang-grid-itm"><img className='css' src='/css-logo.png' alt='css logo'/></div>
         </div>
 
         <div className='borderBottom'></div>
