@@ -42,7 +42,7 @@ span {
 
 .marquee {
     margin-top: 15px;
-    min-width: 420px;
+    max-width: 100%;
     min-height: 12rem;
     pointer-events: none;
     overflow: hidden;

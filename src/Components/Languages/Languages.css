@@ -38,23 +38,17 @@
     margin-top: 100px;
 }
 
-@media (max-width: 950px){
-    .languagesHeader h1{
-        font-size: 4.5rem;
-    }
+.languages{
+    position: relative;
+}
+
+@media (max-width: 1000px){
+
 }
 
 @media (max-width: 750px){
     .languagesHeader h1{
         font-size: 4.5rem;
-    }
-
-    .languagesHeader {
-        margin-left: 10%;
-    }
-
-    .languagesHeader h3 {
-        margin-right: 6%;
     }
 
     .languagesGrid{
@@ -63,6 +57,7 @@
         margin-left: 0;
         margin-right: 50px;
         justify-content: center;
+        position: relative;
     }
 
     .lang-grid-itm .javascript{

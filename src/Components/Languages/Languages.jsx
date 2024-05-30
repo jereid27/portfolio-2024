@@ -6,7 +6,7 @@ const Languages = () => {
     <div className='languages'>
 
         <div className="languagesHeader">
-                    <h1>LANGUAGES \ <span>FRAMEWORKS</span></h1>
+                    <h1>LANGUAGES</h1>
                     <h3>This list continues to grow:)</h3>
         </div>
 

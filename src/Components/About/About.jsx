@@ -38,6 +38,21 @@ const About = () => {
                     <span>DEDICATED</span>
                     <div className='marquee__img'><img src='/star-img.webp' alt='star'/></div>
 
+                    <span>FRONTEND ENGINEER</span>
+                    <div className='marquee__img'><img src='/star-img.webp' alt='star'/></div>
+                    <span>GREAT COMMUNICATOR</span>
+                    <div className='marquee__img'><img src='/star-img.webp' alt='star'/></div>
+                    <span>DESIGNER</span>
+                    <div className='marquee__img'><img src='/star-img.webp' alt='star'/></div>
+                    <span>BACKEND ENGINEER</span>
+                    <div className='marquee__img'><img src='/star-img.webp' alt='star'/></div>
+                    <span>TEAM PLAYER</span>
+                    <div className='marquee__img'><img src='/star-img.webp' alt='star'/></div>
+                    <span>CAT DAD</span>
+                    <div className='marquee__img'><img src='/star-img.webp' alt='star'/></div>
+                    <span>DEDICATED</span>
+                    <div className='marquee__img'><img src='/star-img.webp' alt='star'/></div>
+
                     <span aria-hidden="true">FRONTEND ENGINEER</span>
                     <div aria-hidden="true" className='marquee__img'><img src='/star-img.webp' alt='star'/></div>
                     <span aria-hidden="true">GREAT COMMUNICATOR</span>
