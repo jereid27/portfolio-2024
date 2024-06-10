@@ -8,7 +8,7 @@ const Resume = () => {
         <div className="resume-bar" data-aos='fade' data-aos-easing='ease-in'>
             <p>
                  Take a copy of my resume before you go!</p>
-        <a href="/resume-judereid.pdf" download>Download
+        <a href="/JudeReid-Resume.pdf" download>Download
         <img className='downloadImg' src="/download.png" alt="download" /></a>
         </div>
     </div>
