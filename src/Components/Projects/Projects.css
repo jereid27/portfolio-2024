@@ -36,6 +36,16 @@
     color: rgb(25, 101, 151);
 }
 
+.links Link{
+    text-decoration: none;
+    color: rgb(230, 92, 42);
+    transition: 0.3s;
+}
+
+.links Link:hover{
+    color: rgb(25, 101, 151);
+}
+
 .links a p{
     font-size: 25px;
 }
@@ -69,7 +79,7 @@
 
 .projImg {
     width: 500px;
-    height: 220px;
+    height: 270px;
 }
 
 .gridItem{

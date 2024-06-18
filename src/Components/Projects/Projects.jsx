@@ -1,16 +1,34 @@
 import React, { useState, useEffect }from 'react'
 import './Projects.css'
+import {Link} from "react-router-dom";
 
 const Projects = () => {
+
+
+    const scrollToTop = () => {
+        window.scrollTo(0, 0)
+    }
 
   return (
     <div className='projects' id='projects'>
         <div className="projectHeader">
             <h1>PROJECTS</h1>
-            <h3>FRONTEND | BACKEND | FULLSTACK</h3>
+            <h3>UX/UI DESIGN | FULL-STACK DEVELOPMENT</h3>
         </div>
 
         <div className="proj-grid">
+            {/*First UI Project*/}
+            <div className="gridItem" data-aos='fade-left' data-aos-easing='ease-in'><h1 className='proj1-header'>L.A. Tabor Law Firm, PLLC <br/> UX Design</h1>
+            <p> The L.A. Tabor Law Firm, PLLC official website is intended to provide information to people who were
+                injured at the workplace and are seeking representation. Users can find resources, request consultations, and learn more
+                 about the mission of the firm. 
+                </p>
+                    <div className="links">
+                    <div onClick={scrollToTop}><Link to="/casestudy"><p>View Case Study</p></Link></div>
+                </div>
+            </div>
+            <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><img className='projImg'src='/lathumbnail.png'/></div>
+            
             {/*First Project*/}
             <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><img className='projImg'src='/workwiz-home.png'/></div>
             <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><h1 className='proj1-header'>Work Wizard - Employee Dashboard</h1>

@@ -1,0 +1,228 @@
+.casestudy{
+    padding: 5rem 10rem;
+    justify-content: center;
+}
+
+.project-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.project-head h1 {
+    font-size: 4rem;
+    font-weight: 700; 
+}
+
+.project-head p {
+    font-size: 1.3rem;
+}
+
+.title-descrip{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.title-descrip p {
+    padding: 20px;
+}
+
+.case-image {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 780px;
+  padding: 30px 20px 30px 0px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textsection{
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0px;
+}
+
+#line{
+    border-bottom: 1px solid white;
+}
+
+.textsection h2{
+    font-size: 2.7rem;
+    padding-bottom: 30px;
+}
+
+.textsection h3{
+    font-size: 1.9rem;
+    padding-bottom: 20px;
+}
+
+.textsection h4{
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+
+.textsection p {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.piechart-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 500px;
+}
+
+.it-grid{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.question{
+    width: 400px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    font-size: 1.3rem;
+}
+
+.home-nav{
+    text-decoration: none;
+    color: white;
+}
+
+.home-nav:hover{
+    text-decoration: none;
+    color: rgb(214, 104, 64);
+}
+
+@media (max-width: 870px){
+
+    .case-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 480px;
+    }
+
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .textsection{
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 0px;
+    }
+
+    .question{
+        width:300px;
+    }
+
+    .project-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 30px;
+    }
+    
+    .project-head h1 {
+        font-size: 2.6rem;
+        font-weight: 700; 
+    }
+    
+    .project-head p {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .casestudy{
+        padding: 50px 0px;
+        justify-content: center;
+    }
+
+    .case-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .textsection{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 40px 50px 0px;
+    }
+
+    .question{
+        width:200px;
+    }
+    .question h3 {
+
+        font-size: 0.2rem;
+
+    }
+
+    .project-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 30px;
+    }
+    
+    .project-head h1 {
+        font-size: 2.5rem;
+        font-weight: 700; 
+    }
+    
+    .project-head p {
+        font-size: 1rem;
+    }
+
+    .piechart-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+        width: 300px;
+    }
+}
+
