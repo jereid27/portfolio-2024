@@ -147,7 +147,7 @@ li{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-right: 30px;
+        padding-right: 0px;
     }
     
     .project-head h1 {
@@ -157,6 +157,12 @@ li{
     
     .project-head p {
         font-size: 1.1rem;
+    }
+
+    .it-grid{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
     }
 
 }
@@ -209,7 +215,7 @@ li{
     }
     
     .project-head h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         font-weight: 700; 
     }
     
