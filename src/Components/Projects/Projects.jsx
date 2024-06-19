@@ -30,7 +30,7 @@ const Projects = () => {
             <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><img className='projImg'src='/lathumbnail.png'/></div>
             
             {/*First Project*/}
-            <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><img className='projImg'src='/workwiz-home.png'/></div>
+            <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><img className='projImg'src='/workwiz.png'/></div>
             <div className="gridItem" data-aos='fade-right' data-aos-easing='ease-in'><h1 className='proj1-header'>Work Wizard - Employee Dashboard</h1>
                 <p>Work Wizard - Employee Dashboard is a fullstack application built using Java, Spring Boot, Spring Boot Security,
                     HTML, CSS, and PostgreSQL designed to help independent contractors such as cosmetologists and tattoo artists 
