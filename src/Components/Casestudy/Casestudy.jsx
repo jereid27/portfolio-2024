@@ -17,7 +17,7 @@ const Casestudy = () => {
           </div>
         </div>
 
-        <img src="/lathumbnail.png" alt="thumbnail" className='case-image' />
+        <img src="/lataborthumbnail.png" alt="thumbnail" className='case-image' />
 
 
         <div className="main-text">
