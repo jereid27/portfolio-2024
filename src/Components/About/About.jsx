@@ -77,7 +77,7 @@ const About = () => {
             </div>
             <div className="bio" data-aos='fade-right' data-aos-easing='ease-in'>
                 Hi, I'm Jude! I am a highly motivated,<br /> <span>full stack software engineer</span> with a strong interest in 
-                web developement. Combining my unique experience in traditional and digital art with my education in software engineering allows me to
+                UX Design and web developement. Combining my unique experience in traditional and digital art with my education in software engineering allows me to
                 to build efficient and artistic applications. Outside of coding, I enjoy making graphite drawings and watching movies.
             </div>
         

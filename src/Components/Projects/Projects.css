@@ -26,6 +26,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+.small-font{
+    font-size: 1.5rem;
+    color: rgb(230, 92, 42);
+    padding: 0;
+}
+
 .links a{
     text-decoration: none;
     color: rgb(230, 92, 42);
@@ -66,6 +72,7 @@
 
 .proj1-header{
     font-size: 2.6rem;
+    padding-bottom: 0px;
     border-bottom: .5px solid rgba(255, 255, 255, 0.493);
 }
 

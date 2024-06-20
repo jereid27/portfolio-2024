@@ -102,7 +102,7 @@ const Casestudy = () => {
 
           <img src="/latabor-piechart.png" alt="piechart" className='piechart-img' />
 
-          <div className="textsection">
+          <div className="textsection" id='line'>
             <h3>Main Goals</h3>
             <h4>Access to Information</h4>
             <p>People who seek representation for workers' compensation are usually those who are not well versed in
@@ -116,7 +116,7 @@ const Casestudy = () => {
             
           </div>
           
-          <div className="textsection">
+          <div className="textsection" id='line'>
             <h2>Wireframing</h2>
             <h3>Low Fidelity</h3>
             <img src="/la-lowfidelity.png" alt="low-fidelity" className='lowfidelity' />
@@ -124,13 +124,13 @@ const Casestudy = () => {
             <img src="/la-midfidelity.png" alt="mid-fidelity" className='midfidelity' />
           </div>
 
-          <div className="textsection">
+          <div className="textsection" id='line'>
             <h2>Final Design</h2>
             <h3>High Fidelity</h3>
-            <img src="/la-highfidelity.png" alt="final design" className='finalDesign' />
+            <img src="/latabor-prototype.png" alt="final design" className='finalDesign' />
           </div>
 
-          <div className="textsection">
+          <div className="textsection" id='line'>
             <h2>User Testing</h2>
             <h3>User Feedback</h3>
             <ul>
