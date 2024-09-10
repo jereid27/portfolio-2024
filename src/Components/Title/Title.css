@@ -1,7 +1,7 @@
 /*Content Styles*/
 .title{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.514)), url("fresco-background.jpg"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.514)), url("/fresco-background.jpg"); 
     background-size: cover;
     background-position: center;
     display: flex;
