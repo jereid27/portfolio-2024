@@ -99,6 +99,7 @@
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
+        align-items: center;
         gap: 3rem;
         margin-top: 8%;
     }
@@ -111,5 +112,15 @@
     .gridItem{
         width: 300px;
     }
+
+    .projectHeader h1{
+        font-size: 4rem;
+    }
+
+    .proj-grid p {
+        font-size: 1.3rem;
+        
+    }
+    
 
 }
