@@ -1,7 +1,7 @@
 /*Content Styles*/
 .title{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.322)), url("/portfolio-background.jpg"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.514)), url("fresco-background.jpg"); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -70,7 +70,7 @@ left: 50%;
 .arrows{
     width: 40px;
     height: 40px;
-    top: 87%;
+    top: 90%;
     left: 90%;
     margin: -20px 0 0 -20px;
     transform: rotate(45deg);
@@ -194,13 +194,14 @@ left: 50%;
     .titleText{
         min-width: 100px;
         border-left: none;
-        padding: none;
+        padding: 10px;
     }
 
     .titleName{
         font-size: 4.5rem;
         margin-left: 20px;
         padding-right: 0;
+        padding-bottom: 0;
     }
 
     .lastName{
