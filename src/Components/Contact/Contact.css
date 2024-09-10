@@ -132,12 +132,13 @@
     .contact-section{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .contact-right{
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         gap: 10px;
         margin-left: 0px;
         margin-top: -20px;

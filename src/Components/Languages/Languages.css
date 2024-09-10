@@ -57,11 +57,13 @@
         margin-left: 0;
         margin-right: 50px;
         justify-content: center;
+        align-items: center;
         position: relative;
     }
 
     .lang-grid-itm .javascript{
         width: 130px;
+
     }
 
     .lang-grid-itm .react{
