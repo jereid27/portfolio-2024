@@ -38,6 +38,7 @@ const Projects = () => {
                 <p>This world map, created using AngularJS, allows users to view API sourced facts about individual countries. This is made possible
                      by leveraging mouse events that display information on screen derived from an API when a user selects a desired country.</p>
                      <div className="links">
+                     <a href='https://worldfactpicker.netlify.app/' target='_blank'><p>Visit Site</p></a>
                      <a className='link2' href='https://github.com/jereid27/World-Map' target='_blank'><p>View Code</p></a>
                      </div>
                      </div>
