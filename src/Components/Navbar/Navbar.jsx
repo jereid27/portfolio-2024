@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 const Navbar = () => {
 
     const [sticky, setSticky] = useState(false);
-    const [scrolled, setScrolled] = useState(false)
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(()=>{
         window.addEventListener('scroll', ()=>{

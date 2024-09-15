@@ -87,6 +87,7 @@
 .projImg {
     width: 500px;
     height: 270px;
+    object-fit: contain;
 }
 
 .gridItem{
@@ -106,7 +107,8 @@
 
     .projImg {
         width: 100%;
-        height: 120px;
+        height: auto;
+        object-fit: contain;
     }
     
     .gridItem{
